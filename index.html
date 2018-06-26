@@ -14,13 +14,6 @@
   <link rel="stylesheet" href="css/amazeui.css"/>
   <link rel="stylesheet" href="css/style.css"/>
 </head>
-
-
-
-
-
-
-
 <body>
 <header class="am-topbar header">
 	<div class="am-container-1">
@@ -33,18 +26,14 @@
       class="am-icon-bars"></span></button>
 
   <div class="am-collapse am-topbar-collapse right" id="doc-topbar-collapse">
-    
-
     <div class=" am-topbar-left am-form-inline am-topbar-right" role="search">
       <ul class="am-nav am-nav-pills am-topbar-nav hw-menu">
       <li class="hw-menu-active"><a href="index.html">首页</a></li>
-      <li ><a href="solutions.html">解决方案</a></li>
-      <li><a href="product-show.html">产品展示 </a></li>
+      <li ><a href="dsp-ad.html">DSP广告</a></li>
+      <li><a href="weChart-show.html">微信小程序 </a></li>
       <li><a href="customer-case.html">客户案例</a></li>
-      <li><a href="service-center.html">服务中心 </a></li>
-      <li><a href="news.html">新闻动态 </a></li>
-      <li><a href="about-us.html">关于我们</a></li>
-      <li><a href="recruit.html">招贤纳士 </a></li>
+      <li><a href="about-us.html">关于佳晟 </a></li>
+      <li><a href="link-us.html">联系我们 </a></li>
     </ul>
     </div>
 
@@ -56,7 +45,6 @@
 	  <ul class="am-slides">
 	      <li><img src="img/hw_bg1.png"/></li>
 	      <li><img src="img/hw_bg.png"/></li>  	
-	      <li><img src="img/hw_bg3.png"/></li>
 	  </ul>
     </div>
 </div>
@@ -397,6 +385,18 @@
 <script src="js/amazeui.min.js"></script>
 <script src="js/scroll.js"></script>
 <script type="text/javascript">
-
+function GetRequest() {   
+   var url = location.search; //获取url中"?"符后的字串   
+   var theRequest = new Object();   
+   if (url.indexOf("?") != -1) {   
+      var str = url.substr(1);   
+      strs = str.split("&");   
+      for(var i = 0; i < strs.length; i ++) {   
+         theRequest[strs[i].split("=")[0]]=unescape(strs[i].split("=")[1]);   
+      }   
+   }   
+   return theRequest;   
+}  
+  console.log( GetRequest())
 </script>
 </html>
