@@ -255,73 +255,7 @@ a {
 /*header结束*/
 
 
-/*尾部*/
 
-.footer {
-	width: 100%;
-	height: auto;
-	background-color: #2d2d2d;
-	overflow: hidden;
-	padding: 0 5% 25px 5%;
-	background: url(../img/bg-pic2.png) no-repeat;
-	background-size: 100% 100%;
-}
-
-.footer ul {
-	padding-top: 40px;
-	width: 85%;
-	margin: 0 auto;
-}
-
-.footer ul li {
-	color: #fff;
-}
-
-.part-5-words2 p {
-	line-height: 23px;
-	font-size: 13px;
-}
-
-.part-5-words2 span {
-	display: block;
-	margin-bottom: 10px;
-	font-size: 13px;
-}
-
-.part-5-words2-ul li {
-	margin-bottom: 10px;
-	font-size: 13px;
-	padding: 0;
-}
-
-.part-5-words2-ul {
-	padding-top: 0 !important;
-	width: 100% !important;
-}
-
-.part-5-words2-ul li a {
-	color: #fff;
-}
-
-.part-5-title {
-	color: #fff;
-	font-weight: bold;
-	margin-bottom: 20px;
-}
-
-.part-5-words2 span i {
-	font-size: 20px;
-}
-
-.part-5-words2 span em {
-	font-style: normal;
-	margin-left: 5px;
-	font-size: 16px;
-	font-weight: bold;
-}
-
-
-/*尾部结束*/
 
 
 /*首页*/

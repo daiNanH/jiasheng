@@ -4,3 +4,23 @@
 	left: 0;
 	top:40%;
 }
+/*尾部*/
+
+.footer {
+	width: 100%;
+	height: auto;
+	background-color: #2d2d2d;
+	overflow: hidden;
+	padding: 0 5% 25px 5%;
+	background: url(../img/bg-pic2.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+
+/*尾部结束*/
+.icon-width{
+	width: 25px;
+}
+.am-list > li{
+	border: none;
+}
