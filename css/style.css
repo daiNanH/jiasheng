@@ -260,11 +260,11 @@ a {
 .footer {
 	width: 100%;
 	height: auto;
-	background-color: #2d2d2d;
+	color: #696261;
+	background-color:#101429;
 	overflow: hidden;
-	padding: 0 5% 25px 5%;
-	background: url(../img/bg-pic2.png) no-repeat;
-	background-size: 100% 100%;
+	padding: 25px 0 25px 0;
+	text-align:center;
 }
 
 .footer ul {
