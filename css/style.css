@@ -1548,8 +1548,23 @@ padding-bottom: 25px;}
 		margin-top: 25px;
 	}
 }
-
+@media only screen and (min-width:1024px) {
+		/* 关于佳晟 */
+		.width-logo{
+			padding-top: 10%;
+		}
+		.width-padding{
+			padding-top:10%;
+		}
+}
 @media only screen and (max-width:1024px) {
+	/* 关于佳晟 */
+	.width-logo{
+		padding-top: 10%;
+	}
+	.width-padding{
+		padding-top:10%;
+	}
 	/*首页*/
 	.hw-logo {
 		margin-left: 10px;
@@ -1631,8 +1646,8 @@ padding-bottom: 25px;}
 	.service-content p {
 		font-size: 15px;
 	}
-}
 
+}
 @media only screen and (max-width:915px) {
 	.hw-logo {
 		margin-left: 10px;
@@ -1672,9 +1687,23 @@ padding-bottom: 25px;}
 		line-height: 110px;
 		border: 10px solid #f0f0f0;
 	}
+		/* 关于佳晟 */
+		.width-logo{
+			padding-top: 10%;
+		}
+		.width-padding{
+			padding-top:8%;
+		}
 }
 
 @media only screen and (max-width:640px) {
+	/* 关于佳晟 */
+	.width-logo{
+		padding-top:0;
+	}
+	.width-padding{
+		padding-top:0;
+	}
 	/*首页*/
 	.solution-circle {
 		font-size: 45px;
