@@ -1547,6 +1547,9 @@ padding-bottom: 25px;}
 		width: 80%;
 		margin-top: 25px;
 	}
+	.top-padding{
+		padding-top: 4%;
+	}
 }
 @media only screen and (min-width:1024px) {
 		/* 关于佳晟 */
@@ -1555,6 +1558,9 @@ padding-bottom: 25px;}
 		}
 		.width-padding{
 			padding-top:10%;
+		}
+		.top-padding{
+			padding-top: 6%;
 		}
 }
 @media only screen and (max-width:1024px) {
@@ -1670,9 +1676,15 @@ padding-bottom: 25px;}
 	.contact-us div img {
 		width: 95%;
 	}
+	.top-padding{
+		padding-top: 0;
+	}
 }
 
 @media only screen and (max-width:768px) {
+	.top-padding{
+		padding-top: 0;
+	}
 	.product-img {
 		width: 100%;
 		margin-top: 25px;
@@ -2037,4 +2049,7 @@ i.am-icon-tasks{ display: none;}
 		margin-top: 20px !important;
 	}
 	.news-ul li{ margin-top: 25px;}
+}
+.bgc-web{
+	background-color: #F9FBFC ;
 }
